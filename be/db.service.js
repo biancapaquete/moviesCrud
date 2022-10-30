@@ -4,7 +4,7 @@ const client = new Client({
     password: 'mysecretpassword',
     host: 'localhost',
     port: 5432,
-    database: 'postgres_db',
+    database: 'postgres',
 })
 
 function connectDatabase() {
