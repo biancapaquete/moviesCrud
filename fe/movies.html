@@ -6,10 +6,10 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-<div class="wrapper">
+<div class="wrapper header">
   <h3>Movies</h3>
 
-  <div class="wrapper">
+  <div class="wrapper" id="box">
     <form class="input-group" id="movieForm">
       <input id="movieName" type="text" placeholder="Name" value=""/>
       <input id="movieDescription" type="text" placeholder="Description" value=""/>
@@ -18,7 +18,7 @@
       </select>
       <input id="movieDirector" type="text" placeholder="Director" value=""/>
       <input id="movieActors" type="text" placeholder="Actors" value=""/>
-      <button id="searchQuerySubmit" type="submit" name="searchQuerySubmit">
+      <button type="submit">
         Create Genre
       </button>
     </form>
@@ -26,7 +26,7 @@
 </div>
 
 <div class="list-container" id="movieList">
-  <div class="header">
+  <div class="list-header">
     <span>Title</span>
     <span>Description</span>
     <span>Release Date</span>

@@ -35,7 +35,7 @@ async function listGenre() {
                             <span>${genres[i].name}</span>
                                 <div class="actions">
                                 <button>Edit Genre</button>
-                                <button>Delete Genre</button>
+                                <button class="delete-button">Delete Genre</button>
                                 </div>
                         </div>
                     </div>

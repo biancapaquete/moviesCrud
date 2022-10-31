@@ -53,7 +53,7 @@ async function listMovies() {
                         
                             <div class="actions">
                                 <button>Edit Movie</button>
-                                <button>Delete Movie</button>
+                                <button class="delete-button">Delete Movie</button>
                             </div>
                         
                         </div>
