@@ -33,16 +33,15 @@ async function listGenre() {
                     <div class="element">
                         <div class="genre-info">
                             <span>${genres[i].name}</span>
-                        </div>
-                        
-                        <div class="actions">
-                            <button>Edit Genre</button>
-                            <button>Delete Genre</button>
+                                <div class="actions">
+                                <button>Edit Genre</button>
+                                <button>Delete Genre</button>
+                                </div>
                         </div>
                     </div>
 				</div>`)
-        let editButton = genreListBody.children[i].children[0].children[1].children[0];
-        let deleteButton = genreListBody.children[i].children[0].children[1].children[1];
+        let editButton = genreListBody.children[i].children[0].children[0].children[1].children[0];
+        let deleteButton = genreListBody.children[i].children[0].children[0].children[1].children[1];
 
         editButton.onclick = function () {
             genreListBody.children[i].insertAdjacentHTML('beforeend', `

@@ -79,18 +79,27 @@ body {
 	cursor: pointer;
 }
 
+.list-container .header {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 2fr;
+	padding: 8px;
+}
+
+#movieList .movie-info {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 2fr;
+}
+
+#genreList .genre-info {
+	display: flex;
+	justify-content: space-between;
+}
+
 .list-container .list-element {
 	margin-bottom: 0.5rem;
 	border: 1px solid grey;
 	border-radius: 5px;
 	padding: 8px;
-}
-
-.list-container .list-element .element {
-	display: flex;
-	flex-flow: row nowrap;
-	justify-content: space-between;
-	align-items: center;
 }
 
 
