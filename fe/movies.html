@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Movies</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="wrapper header">
+  <h3>Movies</h3>
+
+  <div class="wrapper" id="box">
+    <form class="input-group" id="movieForm">
+      <input id="movieName" type="text" placeholder="Name" value=""/>
+      <input id="movieDescription" type="text" placeholder="Description" value=""/>
+      <input id="movieReleaseDate" type="text" placeholder="Release Date" value=""/>
+      <select id="movieGenre">
+      </select>
+      <input id="movieDirector" type="text" placeholder="Director" value=""/>
+      <input id="movieActors" type="text" placeholder="Actors" value=""/>
+      <button type="submit">
+        Create Genre
+      </button>
+    </form>
+  </div>
+</div>
+
+<div class="list-container" id="movieList">
+  <div class="list-header">
+    <span>Title</span>
+    <span>Description</span>
+    <span>Release Date</span>
+    <span>Movie Genre</span>
+    <span>Director</span>
+    <span>Actors</span>
+    <span>Actions</span>
+  </div>
+</div>
+
+<script
+        src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+        crossorigin="anonymous"></script>
+<script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+<script src="js/movies.js"></script>
+
+</body>
+</html>
